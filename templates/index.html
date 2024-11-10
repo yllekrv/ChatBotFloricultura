@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página inicial da empresa</title>
+    <style>
+        df-messenger {
+         --df-messenger-bot-message: #006655;
+         --df-messenger-button-titlebar-color: #830404;
+         --df-messenger-chat-background-color: #fafafa;
+         --df-messenger-font-color: white;
+         --df-messenger-send-icon: #ceb903;
+         --df-messenger-user-message: #479b3d;
+
+         background-image: url('https://images.unsplash.com/photo-1729547846218-bd20bc595fd2?q=80&w=1412&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');   
+         background-size: cover; 
+         background-position: center; 
+
+        }
+    </style> 
+
+    
+</head>
+<body>
+    <h1>Seja bem-vindo a nossa empresa!</h1>
+</body>
+<script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+<df-messenger
+  intent="WELCOME"
+  chat-title="FloriculturaLoja"
+  agent-id="c5b93024-a22d-4adb-aae6-f0ee6503beeb"
+  language-code="pt-br"
+></df-messenger>
+</html>
+
+
